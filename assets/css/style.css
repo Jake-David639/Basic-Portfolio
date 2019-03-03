@@ -1,12 +1,54 @@
-header {
-
-}
 body {
-
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: #333;
+    background: #efeee7;
+  }
+  
+header {
+    background: #333;
 }
-footer {
 
+h1 {
+    background-color: #4aaaa5;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
 }
+
 .container {
+    width: 960px;px;
+    margin: 0 auto;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+}
+
+#bio-image {
+    float: left;
+    width:200px;
+    height:150px;
+    padding-right: 5px;
+}
+
+footer {
+    background-color: ;
+}
+
+#porfolio-entry {
+
+}
+
+#portfolio-image {
 
 }

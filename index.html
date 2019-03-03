@@ -4,15 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <title>CSS Stylesheets with Relative Paths</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
 
 <body>
+
     <header>
-        <h1>Student Bio</h1>
+        <div class="nav navBar" id="nav-bar">
+            <h1>Jake David</h1>
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="protfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
     </header>
+
 
     <div class="container">
 
@@ -20,30 +36,26 @@
 
             <h2>Jake David</h2>
 
-            <img id="bio-image" href="assets/images" alt="Bio Picture">
+            <img id="bio-image" src="assets/images/bio-pic.jpg" alt="Bio Picture">
 
-            <p>
+            <p class="lead">
                 Hello, I'm Jake. I'm a natural philosopher, adventure seeker, music afficianado, ametuear theoretical
                 physicist, tinkerer and most importantly: Just a nice guy. xD
                 I enjoy dodging jellyfish while snorkeling, bungy jumping, drum circles, music festivals and progressive
-                metal.
+                metal. Here are some jokes:
                 I'm so metal I rust. I'm so metal I oxidize while you reduce.
             </p>
-            <div id="bio-p2">
-            <p>
-                I'm secretly a weeb, and I play LoL. Silver 4 champion right here! I also enjoy travelling a good bit
-                and have been all over the world. Still need to see Pyramids and Penguins though, still working on that.
+            <p class="lead">
+                I'm secretly a weeb, and I play LoL. Silver 4 champion right here! I also enjoy travelling a good
+                bit
+                and have been all over the world. Still need to see Pyramids and Penguins though, still working on
+                that.
                 I'm a big fan of snow, mountains, and the ocasional conspiracy thory as well.
             </p>
-            </div>
         </section>
 
     </div>
 
 </body>
-
-<footer>
-
-</footer>
 
 </html>
