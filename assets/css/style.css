@@ -48,6 +48,7 @@ h2 {
 .navBar {
     display: flex;
     justify-content: space-between;
+    width: 960px;
 }
 
 #bio-image {
@@ -62,8 +63,8 @@ footer {
     border-top: 8px solid #4aaaa5;
 }
 
-#portfolio-wrapper {
-
+.portfolio-wrapper {
+    margin-left: 20px;
 }
 
 .porfolio-entry {
@@ -77,6 +78,8 @@ footer {
 .portfolio-title {
     text-align: center;
     background: #4aaaa5;
+    width: 250px;
+    margin-bottom: 5px; 
 }
 
 #submit-contact-btn{
@@ -92,4 +95,8 @@ footer {
 .nav-link {
     color: #666666;
     margin-top: 5px;
+}
+
+p {
+    line-height: 150%;
 }
